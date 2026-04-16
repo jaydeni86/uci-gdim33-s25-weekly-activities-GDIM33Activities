@@ -32,4 +32,12 @@ N/A
 4. Yes, it's because players can talk with NPCs or explore and interact with clues. 
 
 
-Continue adding additional headers below this one for future weeks and future activities.
+
+
+## W4
+## W5
+## W6
+## W7
+## W8
+## W9
+## W10
