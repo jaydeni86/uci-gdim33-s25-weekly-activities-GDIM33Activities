@@ -20,7 +20,7 @@ N/A
 
 ## W3
 ### Activity 1 
-(<img width="960" height="720" alt="Break-Down" src="https://github.com/user-attachments/assets/7fd03b50-17d8-4eb1-861e-440c7c5570db" />)
+<img width="960" height="720" alt="Break-Down" src="https://github.com/user-attachments/assets/7fd03b50-17d8-4eb1-861e-440c7c5570db" />
 
 
 
