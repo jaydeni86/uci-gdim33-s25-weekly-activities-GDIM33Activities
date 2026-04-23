@@ -9,16 +9,26 @@ namespace W4Activity
         // do not edit this line
         public static DialogueAdvancerW4 _Instance {get; private set;}
 
+        public DialogueNodeW4 firstDialogueLine;
+
         // More Singleton stuff
         // do not edit this method
-        private void Awake() {
-            if (_Instance != null && _Instance != this) {
+        private void Awake() 
+        {
+            if (_Instance != null && _Instance != this) 
+            
+            {
                 Destroy(this);
                 return;
             }
 
             _Instance = this;
         }
+        private void Start()
+        {
+            ChooseDialogue(firstDialogueLine);
+        }
+
 
         // Button hooks up to this method
         // do not edit this method
