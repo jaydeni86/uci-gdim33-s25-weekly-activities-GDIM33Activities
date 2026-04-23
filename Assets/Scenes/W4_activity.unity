@@ -645,7 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb1e5b7a55be434fb3cef9588182ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDialogue: {fileID: 11400000, guid: 811db0b0053d54ec29f09ff4fb97912f, type: 2}
+  firstDialogueLine: {fileID: 11400000, guid: d5932cbf7d10b4a6eb28e8749cb6b1ff, type: 2}
 --- !u!1 &321970410
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +780,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321970410}
   m_CullTransparentMesh: 1
+--- !u!1 &996876831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 996876832}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &996876832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996876831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6800001, y: 0.94000006, z: 0.010000229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1131941453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,3 +1145,4 @@ SceneRoots:
   - {fileID: 84573466}
   - {fileID: 147009309}
   - {fileID: 1219014776}
+  - {fileID: 996876832}
